@@ -1,0 +1,94 @@
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background-color: rgb(43, 202, 250);
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+.mainImage{
+    width: 100%;
+    text-align: center;
+}
+
+.main{
+    width: 100%;
+}
+
+.image01{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.first{
+    width: 100%;
+}
+
+.image02{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.second{
+    width: 100%;
+}
+
+.image03{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.third{
+    width: 100%;
+}
+
+.image04{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.fourth{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media(max-width: 640px){
+    #container{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
